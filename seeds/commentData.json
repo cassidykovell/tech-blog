@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "content": "Yes I had to see a doctor about it.",
+      "user_id": 3,
+      "post_id": 1
+    },
+    {
+      "id": 2,
+      "content": "No that's just you.",
+      "user_id": 2,
+      "post_id": 2
+    },
+    {
+      "id": 3,
+      "content": "You might need help. I am not sure if this is health.",
+      "user_id": 1,
+      "post_id": 3
+    }
+  ]

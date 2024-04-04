@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Dream?",
+        "content": "Anyone else having coding dreams recently?",
+        "user_id": 1
+    },
+    {
+        "id": 2,
+        "title": "Issues with Headers",
+        "content": "Placing headders has been so hard lately!",
+        "user_id": 2
+    },
+    {
+        "id": 3,
+        "title": "<h1>I love to code</h1>",
+        "content": "<p>I seriously love ot code</p>",
+        "user_id": 3
+    }
+  ]
