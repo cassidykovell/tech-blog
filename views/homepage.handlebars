@@ -1,0 +1,26 @@
+{{#each posts as |post| }}
+  <div class="row mb-4 project">
+    <div class="col-md-5">
+      <h2>
+        <a href="/post/{{post.id}}">{{post.name}}</a>
+      </h2>
+      <p>Created by {{post.user.username}} on {{format_date post.date_created}}</p>
+    </div>
+    <div class="col-md-7">
+      <p>
+        {{post.content}}
+      </p>
+      
+      {{#if post.comments.length}}
+        <div class="comments-section">
+          <h3>Comments:</h3>
+          <ul>
+            {{#each post.comments as |comment|}}
+              <li>{{comment.username}} - {{comment.timestamp}}: {{comment.content}}</li>
+            {{/each}}
+          </ul>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+{{/each}}
